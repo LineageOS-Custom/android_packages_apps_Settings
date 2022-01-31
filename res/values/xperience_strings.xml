@@ -15,28 +15,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
-
-    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="xperience_firmware_version">XPerience Version</string>
-    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="xperience_firmware_uri" translatable="false">https://TheXPerienceProject.org/</string>
-    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="xperience_build_code">XPerience Codename</string>
-    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="build_channel">Channel</string>
-
-    <!-- Hardware info -->
-    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
-    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
-
      <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
+
 </resources>
