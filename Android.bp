@@ -75,6 +75,7 @@ android_library {
         "lottie",
         "org.lineageos.platform.internal",
         "mx.xperience.framework",
+        "vendor.lineage.fastcharge-V1.0-java",
     ],
 
     libs: [
